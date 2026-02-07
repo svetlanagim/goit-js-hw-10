@@ -1,0 +1,94 @@
+.container-snackbar {
+max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    background-color: #fefefe;
+}
+
+.form {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.form>label {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 8px;
+}
+
+.form input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    transition: border-color 0.2s;
+}
+
+.form input[type="number"]:hover {
+    border-color: #000;
+}
+
+.form input[type="number"]:focus {
+    border-color: #4e75ff;
+    outline: none;
+}
+
+fieldset {
+    display: flex;
+    gap: 48px;
+    font-size: 14px;
+    text-align: left;
+    border-radius: 4px;
+   margin-top: 16px;
+   
+}
+fieldset:hover,
+fieldset:focus {
+    border: 1px solid #000;
+}
+
+legend {
+font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+label[type="radio"] {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    color: #2e2f42;
+
+}
+
+
+button[type="submit"] {
+    padding: 8px;
+    padding-inline: 16px;
+    background: #4e75ff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 24px;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #6c8cff;
+}
